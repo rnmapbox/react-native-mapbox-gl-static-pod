@@ -1,0 +1,1 @@
+# react-native-mapbox-gl-static-pod
