@@ -18,4 +18,4 @@ end
 File.write(File.join(File.dirname(__FILE__), "@react-native-mapbox-gl-mapbox-static.podspec.json"), lines.join(""))
 
 
-puts "Please execute: `pod trunk push \"@react-native-mapbox-gl-mapbox-static.podspec.json\" --skip-import-validation`"
+puts "Please execute: `pod trunk push \"@react-native-mapbox-gl-mapbox-static.podspec.json\" --skip-import-validation --allow-warnings`"
