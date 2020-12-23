@@ -23,7 +23,7 @@ end
 
 File.write(File.join(File.dirname(__FILE__), "@react-native-mapbox-gl-mapbox-static.podspec.json"), lines.join(""))
 
-if ARGV[1] == "publish"
+if ARGV[1] == "autopublish"
   system("pod trunk push \"@react-native-mapbox-gl-mapbox-static.podspec.json\" --skip-import-validation --allow-warnings")
 else
   puts "Please execute: `pod trunk push \"@react-native-mapbox-gl-mapbox-static.podspec.json\" --skip-import-validation --allow-warnings`"
