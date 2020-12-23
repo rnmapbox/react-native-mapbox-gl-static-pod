@@ -13,7 +13,7 @@
   },
   "screenshots": "https://docs.mapbox.com/ios/api/maps/_._._/img/screenshot.png",
   "source": {
-    "http": "https://api.mapbox.com/downloads/v2/mobile-maps/releases/ios/_._._/mapbox-ios-sdk-dynamic-with-events.zip",
+    "http": "https://mapbox.s3.amazonaws.com/mapbox-gl-native/ios/builds/mapbox-ios-sdk-_._._-dynamic-with-events.zip",
     "flatten": true
   },
   "platforms": {

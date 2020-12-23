@@ -1,6 +1,6 @@
 {
   "name": "@react-native-mapbox-gl-mapbox-static",
-  "version": "_._._",
+  "version": "5.9.0",
   "summary": "Mapbox Mobile Events for static link with Mapbox GL",
   "description": "This is an unufficial workaround that allows consumption of Mapbox-iOS-SDK without use_frameworks!. Mapbox Mobile Events collects usage information to help Mapbox improve its products.",
   "homepage": "https://github.com/react-native-mapbox-gl/react-native-mapbox-gl-static-pod",
@@ -11,9 +11,9 @@
   "authors": {
     "react-native-mapbox-gl": "mfazekas@szemafor.com"
   },
-  "screenshots": "https://docs.mapbox.com/ios/api/maps/_._._/img/screenshot.png",
+  "screenshots": "https://docs.mapbox.com/ios/api/maps/5.9.0/img/screenshot.png",
   "source": {
-    "http": "https://api.mapbox.com/downloads/v2/mobile-maps/releases/ios/_._._/mapbox-ios-sdk-dynamic-with-events.zip",
+    "http": "https://mapbox.s3.amazonaws.com/mapbox-gl-native/ios/builds/mapbox-ios-sdk-5.9.0-dynamic-with-events.zip",
     "flatten": true
   },
   "platforms": {
