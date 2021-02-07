@@ -24,6 +24,6 @@ jobs:
       - name: Install pods
         run: gem install cocoapods
       - name: Publish to trunk
-        run: ruby publish.rb 5.9.0 autopublish
+        run: ruby publish.rb 10.0.0-beta.12
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
