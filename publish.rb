@@ -2,7 +2,7 @@
 version = ARGV[0]
 puts "Version:#{version}"
 
-unless version =~ /^\d\.\d\.\d$/
+unless version =~ /^\d+\.\d\.\d(\-[a-z.0-9]+)?$/
   STDERR.puts "Expected version as argument instead got: #{version}"
   exit 1
 end
